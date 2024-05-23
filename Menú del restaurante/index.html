@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>CHIBCHOMBIA</title>
+</head>
+
+<body>
+    <header>
+        <div id="header_background"></div>
+        <h1 id="header_title">CHIBCHOMBIA</h1>
+        <p id="header_description">Coma comida de chibchombia</p>
+    </header>
+    <main>
+        <h1>MENU</h1>
+        <h2>Entradas</h2>
+        <section id="entradas"></section>
+        <h2>Platos Fuertes</h2>
+        <section id="platos_fuertes"></section>
+        <h2>Bebidas</h2>
+        <section id="bebidas"></section>
+        <h2>Postres</h2>
+        <section id="postres"></section>
+        
+        <div class="container">
+    
+        <h2>Carrito de compras</h2>
+        <section id="lista-carrito"></section>
+
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="name" name="nombre" required><br><br>
+
+        <label for="telefono">Telefono: </label>
+        <input type="text" id="phone" name="telefono" required><br><br>
+
+        <label for="direccion">Direccion: </label>
+        <input type="text" id="address" name="direccion" required><br><br>
+
+        <label for="tarjeta">Tarjeta: </label>
+        <input type="text" id="card" name="tarjeta" required><br><br>
+
+        <p>Valor a pagar: </p>
+        <p id="total"></p>
+
+        <button onclick="enviarPedido()">Enviar pedido</button>
+    
+	</div>
+    </main>
+    <footer>Programa realizado por Santiago Sabogal Millan y Juan Diego Martinez Escobar</footer>
+</body>
+
+</html>
